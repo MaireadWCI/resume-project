@@ -7,6 +7,23 @@
     background-color: #676767;
 }
 
+.ui-menu-color-home {
+    background-color: #e67e22;
+}
+
+.ui-menu-color-resume {
+    background-color: #9b59b6;
+}
+
+.ui-menu-color-contact {
+    background-color: #3498db;
+}
+
+.ui-menu-color-download {
+    background-color: #525252;
+}
+
+
 /*--------------------------------------------Heading*/
 header {
     margin: 0;
@@ -21,9 +38,41 @@ header {
     background: url("../images/rosie.jpg");
     background-position: center;
     background-repeat: no-repeat; /*image will appear once rather than tiling*/
-     background-size: cover; /*covers the container it is contained within*/
+    background-size: cover; /*covers the container it is contained within*/
     min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;  /*pushes it down from top*/
+    color: #fff;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+/*to close up the gaps between menu items - this will give all items no visiablity so to overide see next target nav li*/
+.menucontainer {
+    font-size: 0;
+}
+
+/*Overrides the above for the child li*/
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
