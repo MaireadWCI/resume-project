@@ -7,8 +7,8 @@ header {
 .logo {
     background: url("../images/rosie.jpg");
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat; /*image will appear once rather than tiling*/
+     background-size: cover; /*covers the container it is contained within*/
     min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
