@@ -24,6 +24,30 @@
 }
 
 
+/*-------------------------------------------- Special padding margins and text*/
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+
+
 /*--------------------------------------------Heading*/
 header {
     margin: 0;
@@ -37,8 +61,10 @@ header {
 .logo {
     background: url("../images/rosie.jpg");
     background-position: center;
-    background-repeat: no-repeat; /*image will appear once rather than tiling*/
-    background-size: cover; /*covers the container it is contained within*/
+    background-repeat: no-repeat;
+    /*image will appear once rather than tiling*/
+    background-size: cover;
+    /*covers the container it is contained within*/
     min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -49,7 +75,8 @@ header {
     font-family: "Exo", sans-serif;
     font-weight: 100;
     font-size: 46px;
-    margin-top: 50px;  /*pushes it down from top*/
+    margin-top: 50px;
+    /*pushes it down from top*/
     color: #fff;
 }
 
@@ -89,28 +116,34 @@ header {
 }
 
 .menuitem a {
-    width: 100%; /*make the entire area of this div clickable*/
-    text-decoration: none; /*removes the underscore*/
+    width: 100%;
+    /*make the entire area of this div clickable*/
+    text-decoration: none;
+    /*removes the underscore*/
     color: #fff;
     height: 120px;
 }
 
 /*targets fontawesome items*/
 .menuitem a i {
-    padding-top: 22px; /*pushes it down*/
-    display: block; /*icon appears on new line of its own as i element usually appear inline*/
+    padding-top: 22px;
+    /*pushes it down*/
+    display: block;
+    /*icon appears on new line of its own as i element usually appear inline*/
     color: #fafafa;
     font-size: 26px;
 }
 
 .menuitem span {
-    display: block; 
-    width: 100%; /*goes full width of our parent div*/
-    padding-top: 5px; 
+    display: block;
+    width: 100%;
+    /*goes full width of our parent div*/
+    padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 300; /*slightly thiner than normal font weight but looks more elegant*/
+    font-weight: 300;
+    /*slightly thiner than normal font weight but looks more elegant*/
     letter-spacing: 2px;
 }
 
@@ -120,3 +153,54 @@ header {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }*/
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+/*pushes the content in a bit */
+#footer-details {
+    padding: 20px;
+}
