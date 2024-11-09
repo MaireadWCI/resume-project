@@ -279,3 +279,26 @@ footer {
     width: 60%;
 }
 
+/* ----------------------------------------Skills */
+
+/*override/ extend the progress class of bootstrap*/
+/*styling of the progress bar gives good visual ux design*/
+.progress {
+    position: relative;
+    height: 25px; /*changing the height of the progress wrapper automatically changes the height of the bar inside*/
+    margin-bottom: 4px; /*push the bars down realative to each other*/
+}
+
+/*progress type represents the text label */
+.progress-type {
+    position: absolute; /*sits the text label on top */
+    left: 0px; /*positions text to far left*/
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2); /*creates some background oppacity*/
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
