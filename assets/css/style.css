@@ -241,3 +241,41 @@ footer {
 .three-reasons-heading {
     margin-bottom: 15px; /*give space between heading and context class*/
 }
+
+/* ----------------------------------------Personal Info */
+
+/*each indiviual item to stand alone and push each individual siblings down below it*/
+.personal-info-item {
+    margin-bottom: 20px; /*creates vertical space between each item*/
+    display: block; /*starts and end with new line and occupies the horizontal space*/
+    clear: both; /*no other items can appear on either side of it in the case of using floats*/
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block; /*inline block allows us to put two divs side by side*/
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%; /*width of key to 30% as value will be set to 60% giving overall width of 90%*/
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top; /*makes it hug the top of div as much as possible*/
+}
+
+/*making weight 700 makes the text bold*/
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
+}
+
