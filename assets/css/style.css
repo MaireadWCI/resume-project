@@ -57,6 +57,7 @@ header {
     margin-left: 50px;
 }
 
+/*need to add jquery to large screen to move heading to stop hugging the left of container*/
 
 .logo {
     background: url("../images/rosie.jpg");
