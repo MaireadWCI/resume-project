@@ -11,6 +11,10 @@
     background-color: #fff;
 }
 
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+}
+
 #nav .ui-menu-color-home a.hvr-shutter-out-vertical {
     background-color: #e67e22;
 }
@@ -225,4 +229,15 @@ footer {
 /*pushes the content in a bit */
 #footer-details {
     padding: 20px;
+}
+
+/* ----------------------------------------Three Reasons */
+
+.three-reasons-icon {
+    font-size: 26px;  /*makes it bigger*/
+    color: #e67e22; /*uses same color as home page menu item creating a visual assosiation on our page*/
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px; /*give space between heading and context class*/
 }
